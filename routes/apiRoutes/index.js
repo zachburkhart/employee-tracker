@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-router.use(require('./candidateRoutes'));
-router.use(require('./partyRoutes'));
-router.use(require('./voterRoutes'));
-router.use(require('./voteRoutes'));
+router.use(require('./departmentRoutes'));
+router.use(require('./employeeRoutes'));
+router.use(require('./roleRoutes'));
 
 module.exports = router;
